@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "gn0000y000287-nhan-cuoi-pnj-sanh-duyen-vang-18k-ya01712.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "gn0000y000287-nhan-cuoi-pnj-sanh-duyen-vang-18k-ya01712@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "gn0000y000287-nhan-cuoi-pnj-sanh-duyen-vang-18k-ya01712@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
