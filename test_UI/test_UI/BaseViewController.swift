@@ -26,7 +26,7 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(hex: 0x000000)
+      
         setupComponents()
         layoutComponents()
         setupBinding()
@@ -81,4 +81,27 @@ class BaseViewController: UIViewController {
         print("\(String(describing: type(of: self))) is being deinitialized")
     }
     #endif
+}
+extension ObservableType {
+    
+    func asDriverOnErrorJustComplete() -> Driver<Element> {
+        return asDriver(onErrorRecover: { _ in
+            return Driver.empty()
+        })
+    }
+    
+    func mapToVoid() -> Observable<Void> {
+        return map { _ in }
+    }
+    
+    func withPrevious(startWith first: Element) -> Observable<(Element, Element)> {
+        return scan((first, first)) { ($0.1, $1) }
+    }
+    
+}
+extension UIView {
+    func addSubviews(_ subviews: [UIView]) {
+        subviews.forEach { addSubview($0) }
+    }
+    
 }

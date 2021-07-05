@@ -1,0 +1,105 @@
+PODS:
+  - Action (4.3.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - Apollo (0.26.0):
+    - Apollo/Core (= 0.26.0)
+  - Apollo/Core (0.26.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - KeychainSwift (19.0.0)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - NYTPhotoViewer (5.0.5):
+    - NYTPhotoViewer/AnimatedGifSupport (= 5.0.5)
+    - NYTPhotoViewer/Core (= 5.0.5)
+  - NYTPhotoViewer/AnimatedGifSupport (5.0.5):
+    - NYTPhotoViewer/Core
+    - PINRemoteImage/iOS (~> 3.0.1)
+    - PINRemoteImage/PINCache
+  - NYTPhotoViewer/Core (5.0.5)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - PINRemoteImage/Core (3.0.3):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.3):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
+    - PINRemoteImage/Core
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Action
+  - Apollo (~> 0.26.0)
+  - IQKeyboardManagerSwift
+  - KeychainSwift (~> 19.0)
+  - Localize-Swift (~> 3.2)
+  - NVActivityIndicatorView (~> 4.8.0)
+  - NYTPhotoViewer
+  - Reusable
+  - RxCocoa (= 6.1.0)
+  - RxSwift (= 6.1.0)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Apollo
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - Localize-Swift
+    - NVActivityIndicatorView
+    - NYTPhotoViewer
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Reusable
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Action: 9891cd1b0a9047557d7e58e8dfae743e19d08197
+  Apollo: 8f088475d9d2fd6f5477372f031ac16d34956cc5
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  NYTPhotoViewer: 6f50ea92f265d54a350b39a7ab7a1b91ca487ff6
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 79331e2550b883222552d1b8dc62f2422214a0c1
+
+COCOAPODS: 1.10.0
