@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		940E29062693098000ECC620 /* CircularCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E29052693098000ECC620 /* CircularCheckBox.swift */; };
-		940E290926930CE900ECC620 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E290826930CE900ECC620 /* CheckBoxButton.swift */; };
+		940E291C2693568700ECC620 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E291B2693568700ECC620 /* MainViewController.swift */; };
+		940E29212693569F00ECC620 /* PopupViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E29202693569F00ECC620 /* PopupViewVC.swift */; };
 		941D5119268EACB90087234D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D5118268EACB90087234D /* AppDelegate.swift */; };
 		941D511B268EACB90087234D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D511A268EACB90087234D /* SceneDelegate.swift */; };
-		941D511D268EACB90087234D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D511C268EACB90087234D /* ViewController.swift */; };
 		941D5120268EACB90087234D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941D511E268EACB90087234D /* Main.storyboard */; };
 		941D5122268EACDA0087234D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941D5121268EACDA0087234D /* Assets.xcassets */; };
 		941D5125268EACDA0087234D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941D5123268EACDA0087234D /* LaunchScreen.storyboard */; };
@@ -22,12 +21,11 @@
 /* Begin PBXFileReference section */
 		65168FBA7ED0D83A891BA0B4 /* Pods_test_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDF9A837B15FACC5A5E668A /* Pods-test_UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_UI.debug.xcconfig"; path = "Target Support Files/Pods-test_UI/Pods-test_UI.debug.xcconfig"; sourceTree = "<group>"; };
-		940E29052693098000ECC620 /* CircularCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCheckBox.swift; sourceTree = "<group>"; };
-		940E290826930CE900ECC620 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		940E291B2693568700ECC620 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../../Clone Test/PopupViewSample/PopupViewSample/PopupViewSample/Scenes/Main/MainViewController.swift"; sourceTree = "<group>"; };
+		940E29202693569F00ECC620 /* PopupViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewVC.swift; sourceTree = "<group>"; };
 		941D5115268EACB90087234D /* test_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		941D5118268EACB90087234D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		941D511A268EACB90087234D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		941D511C268EACB90087234D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		941D511F268EACB90087234D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		941D5121268EACDA0087234D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		941D5124268EACDA0087234D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,9 +95,8 @@
 				94FE4A5B268EB68E0052F1B4 /* BaseViewController.swift */,
 				941D5118268EACB90087234D /* AppDelegate.swift */,
 				941D511A268EACB90087234D /* SceneDelegate.swift */,
-				941D511C268EACB90087234D /* ViewController.swift */,
-				940E29052693098000ECC620 /* CircularCheckBox.swift */,
-				940E290826930CE900ECC620 /* CheckBoxButton.swift */,
+				940E29202693569F00ECC620 /* PopupViewVC.swift */,
+				940E291B2693568700ECC620 /* MainViewController.swift */,
 				941D511E268EACB90087234D /* Main.storyboard */,
 				941D5121268EACDA0087234D /* Assets.xcassets */,
 				941D5123268EACDA0087234D /* LaunchScreen.storyboard */,
@@ -230,11 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				941D511D268EACB90087234D /* ViewController.swift in Sources */,
-				940E29062693098000ECC620 /* CircularCheckBox.swift in Sources */,
 				94FE4A5C268EB68E0052F1B4 /* BaseViewController.swift in Sources */,
 				941D5119268EACB90087234D /* AppDelegate.swift in Sources */,
-				940E290926930CE900ECC620 /* CheckBoxButton.swift in Sources */,
+				940E29212693569F00ECC620 /* PopupViewVC.swift in Sources */,
+				940E291C2693568700ECC620 /* MainViewController.swift in Sources */,
 				941D511B268EACB90087234D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
